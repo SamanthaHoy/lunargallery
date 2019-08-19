@@ -1,0 +1,60 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  /*Location of the image */
+  background-image: url(IMG_20190501_103450.jpg);
+
+  /* Image is centered vertically and horizontally at all times */
+  background-position: center center;
+
+  /* Image doesn't repeat */
+  background-repeat: no-repeat;
+
+  /* Makes the image fixed in the viewport so that it doesn't move when 
+     the content height is greater than the image height */
+  background-attachment: fixed;
+
+  /* This is what makes the background image rescale based on its container's size */
+  background-size: cover;
+
+  /* Pick a solid background color that will be displayed while the background image is loading */
+  background-color: #0c76f0;
+
+  /* SHORTHAND CSS NOTATION 
+  background: url(images/LandingStock_image_14.jpg) center center cover
+    no-repeat fixed; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  display: flex;
+  font-size: 7em;
+  text-shadow: 3px 4px 4px #000000;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.btn {
+  margin-top: 20%;
+  display: flex;
+  height: 100px;
+  width: 600px;
+  font-size: 3em;
+  justify-content: center;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
